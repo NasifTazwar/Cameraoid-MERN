@@ -17,7 +17,7 @@ const Service = ({service}) => {
                     <p className="course-name">{description}</p>
                 </div>
                 <div className="cost-details">
-                    <h4>{price}</h4>
+                    <h4>${price}</h4>
                     <Link to={`/placeOrder/${_id}`}>
                     <button className="btn btn-lg btn-dark m-2 p-2 custom-button"> Book Packages <BiArrowFromLeft></BiArrowFromLeft>
                     </button>

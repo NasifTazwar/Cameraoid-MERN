@@ -27,7 +27,7 @@ const AddPackage = () => {
         />
         <br />
         <textarea
-          {...register("description", { required: true })}
+          {...register("description", { required: true , maxLength: 200 })}
           placeholder="Description"
           className="p-2 m-2 w-50"
         />
