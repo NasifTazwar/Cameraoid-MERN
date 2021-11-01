@@ -1,0 +1,22 @@
+.login-container {
+  height: 100vh;
+}
+.login-container-details {
+  border: 2px solid rgb(0 0 0 / 4%);;
+  padding: 10px 85px 0px 85px;
+  border-radius: 6px;
+}
+.login-button {
+  background-color: rgb(0 0 255 / 4%);
+  padding: 10px 85px 0px 85px;
+  border: 3px solid rgb(0 0 255 / 4%);
+  border-radius: 50px;
+}
+.login-button:hover {
+  border: 3px solid rgb(0 0 255 / 10%);
+}
+
+.google-icon-resize{
+  font-size: 30px;
+  margin-right: 10px;
+}
