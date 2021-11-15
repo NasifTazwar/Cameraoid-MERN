@@ -35,11 +35,7 @@ const Dashboard = () => {
         >
           <div className="position-sticky pt-3">
             <ul className="nav flex-md-column flex-lg-column align-items-start">
-              
-              {
-                admin ?
-                <>
-                <li className="nav-item">
+            <li className="nav-item">
                 <NavLink
                   to={`${url}`}
                   className="nav-link active"
@@ -48,6 +44,9 @@ const Dashboard = () => {
                   <span data-feather="home"></span>Dashboard
                 </NavLink>
               </li>
+              {
+                admin ?
+                <>
                 <li className="nav-item">
                   <NavLink to={`${url}/makeadmin`} className="nav-link">
                     <span data-feather="shopping-cart"></span>Make Admin

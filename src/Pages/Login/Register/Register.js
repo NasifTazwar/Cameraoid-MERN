@@ -1,7 +1,7 @@
 import React from 'react';
 import './Register.css';
 import loginImg from '../../../images/carousel/login3.png';
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaGoogle, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 import { useHistory, useLocation } from 'react-router';
@@ -10,9 +10,9 @@ import { Alert } from 'react-bootstrap';
 
 const Register = () => {
     const [loginData , setLoginData] = useState({});
-    const {user , registerUser, isLoading , authError} = useAuth();
+    const {user , registerUser, isLoading , authError , signInWithGoogle} = useAuth();
 
-    // const location = useLocation();
+    const location = useLocation();
     const history = useHistory();
 
     const handleOnBlur = e =>{
@@ -35,6 +35,10 @@ const Register = () => {
         /* registerUser(loginData.email , loginData.password); */
         e.preventDefault();
     }
+    const handleGoogleSignIn =()=>{
+        // signInWithGoogle(location , history ,redirect_url);
+        signInWithGoogle(location , history);
+    }
 
 
     return (
@@ -53,15 +57,16 @@ const Register = () => {
                     <div className="row mb-4 px-3">
                         <h6 className="mr-4 my-2">Sign up with</h6>
                         <div className="d-flex justify-content-center">
+                            <div onClick={handleGoogleSignIn} className="linkedin text-center me-3 rounded-circle">
+                                <div className="fa fa-linkedin"><FaGoogle></FaGoogle></div>
+                            </div>
                             <div className="facebook text-center me-3">
                                 <div className=""><FaFacebookF></FaFacebookF></div>
                             </div>
                             <div className="twitter text-center me-3">
                                 <div className="fa fa-twitter"><FaTwitter></FaTwitter></div>
                             </div>
-                            <div className="linkedin text-center me-3">
-                                <div className="fa fa-linkedin"><FaLinkedinIn></FaLinkedinIn></div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div className="row px-3 mb-4">

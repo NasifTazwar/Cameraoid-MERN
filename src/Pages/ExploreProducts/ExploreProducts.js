@@ -16,7 +16,7 @@ const ExploreProducts = () => {
     return (
         <div className="services-container py-5">
             <div id="products">
-            <h2 className="py-5">Explore All The Cameras</h2>
+            <h1 className="py-5">Explore All The Powerful Cameras</h1>
             <Container>
                 <Row className="row-cols-lg-4 row-cols-md-3 row-cols-sm-1 row-cols-1 row-services justify-content-center">
                         {

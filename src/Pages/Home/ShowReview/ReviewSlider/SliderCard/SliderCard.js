@@ -21,7 +21,7 @@ const SliderCard = ({review}) => {
            } 
         
     }
-        // console.log(arr);
+    
     
     
     return (
