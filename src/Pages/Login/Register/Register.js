@@ -102,7 +102,7 @@ const Register = () => {
                         </div>
                         
                         <div className="row my-3 px-3"> 
-                            <button type="submit" className="btn btn-blue text-center">Login</button> 
+                            <button type="submit" className="btn btn-blue text-center">Register</button> 
                         </div>
                         {
                             isLoading && 
