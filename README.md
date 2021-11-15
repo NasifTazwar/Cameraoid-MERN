@@ -1,14 +1,14 @@
 # Paradise Tourism
 
-A website about tourism sector service built to help the people travel the globe. This will help users to know more about various countries and their interesting places.Also authentication system has been implemented to make the order easier in order to travelling.
+A website for photographers and enthusiastic people who are interested to buy DSLR Camera..The website has various types of camera for the people to choose from..They can order their desired product and it will be shipped to their addresses.For that they can track their order status.Also for the admins,the site has an admin panel which will be helpful if any admins wants to update products or confirms any orders placed by the users.
 
-Live site to the website [Paradise Tourism](https://determined-cray-0ad33d.netlify.app)
+Live site to the website [Cammeraoid](https://determined-cray-0ad33d.netlify.app)
 
-- A website about tourism services for the adventurers for traveling a country or a specific place in the world.
-- It has login authentication
-- People can choose any kind packages from services menu.
-- People can order a service/package and from there after confirming they can travel the world and we will help them with it.
-- People can see FAQ for more answers.
+- A website about camera shop for the enthusiastic for taking photos with the camera.
+- It has email,password and google login authentication
+- People can choose any kind of popular cameras from Home.
+- People can order a camera and from there after confirming they can take photos of their surrondings.
+- People can see other peoples reviews.
 - People can see their orders and cancel the orders anytime.
 - Done with react,nodejs,mongodb.
-- Select any tour package that you need and get started right away!
+- Select any camera that you need and get started your journey right away!
