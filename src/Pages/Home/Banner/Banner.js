@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import banner1 from "../../../images/carousel/1.jpg";
 import banner2 from "../../../images/carousel/2.jpg";
 import banner3 from "../../../images/carousel/3.jpg";
@@ -40,14 +41,14 @@ const Banner = () => {
 
             <div className="container">
               <div className="carousel-caption text-start">
-                <h1>The New Frontier</h1>
+                <h1>TECHNOLOGY</h1>
                 <p>
-                Nature, in the broadest sense, is the natural, physical, material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.
+                We've renewed our technology website. You can find contents more easily.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
+                  <NavLink to="/register" className="btn btn-lg btn-primary">
                     Sign up today
-                  </a>
+                  </NavLink>
                 </p>
               </div>
             </div>
@@ -61,14 +62,14 @@ const Banner = () => {
 
             <div className="container">
               <div className="carousel-caption">
-                <h1>Spirit of Exploration</h1>
+                <h1>BEYOND BASIC.</h1>
                 <p>
-                The spirit of exploration is what draws us to visit places seldom seen, off the beaten trail—even off the map! That means visiting new places as often as possible. It means travelling with experienced experts, and local cultural ambassadors.
+                With groundbreaking performance in both still and movie recording, the α7 IV is the ideal hybrid, providing breathtaking imagery along with on-the-spot delivery and distribution. The α7 IV is a camera designed to bring to life the artistic visions of today's creators.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
-                    Learn more
-                  </a>
+                  <NavLink to="/explore" className="btn btn-lg btn-primary" >
+                    Explore More
+                  </NavLink>
                 </p>
               </div>
             </div>
@@ -82,14 +83,14 @@ const Banner = () => {
 
             <div className="container">
               <div className="carousel-caption text-end">
-                <h1>The Mountaintops</h1>
+                <h1>IMAGING EDGE MOBILE</h1>
                 <p>
-                A mountain is an elevated portion of the Earth's crust, generally with steep sides that show significant exposed bedrock. A mountain differs from a plateau in having a limited summit area, and is larger than a hill, typically rising at least 300 metres above the surrounding land.
+                With this versatile mobile application1, you can auto-transfer all still images while shooting by ‘Auto background transfer to Smartphone’ function2 via Wi-Fi® and share through SNS, easily and immediately. You can also send 4K movie from camera to mobile3, check camera live-view remotely on mobile, and add location data to image files.
                 </p>
                 <p>
-                  <a className="btn btn-lg btn-primary" href="#">
+                  <NavLink to="/explore" className="btn btn-lg btn-primary">
                     Browse gallery
-                  </a>
+                  </NavLink>
                 </p>
               </div>
             </div>

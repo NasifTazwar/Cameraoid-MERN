@@ -1,0 +1,35 @@
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 150px;
+  border: 3px solid #DFB355;
+}
+.custom-card-container{
+    background-color: #FE4876;
+    width: 100%;
+    min-height: 425px;
+    border-radius: 6px;
+}
+.orange-golden-text{
+    color: gold;
+}

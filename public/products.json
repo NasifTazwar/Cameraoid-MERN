@@ -1,0 +1,72 @@
+[
+    {
+      "key_id": 0,
+      "name": "EOS R3 (Body)",
+      "description": "Up to 30 fps continuous shooting with AF/AE tracking.Eye Control AF + New Vehicle Priority AF.6K RAW recording + 4K movie with 6K oversampling",
+      "price": "$2000",
+      "img": "https://asia.canon/media/image/2021/09/11/06fc9d1e5daf492fa995c8168749d1de_R3-front.png"
+    },
+    {
+      "key_id": 1,
+      "name": "EOS M50 Mark II",
+      "description": "In-camera YouTube live streaming for real-time video engagement.Film vertical videos in 4K for social media. Wireless connectivity with smartphone and cloud storage",
+      "price": "$2200",
+      "img": "https://asia.canon/media/image/2020/10/12/1f38de91f8ea4a6f91e108977ae4ca53_M50MII_Black_FrontSlantLeft_M55-200.png"
+    },
+    {
+      "key_id": 2,
+      "name": "EOS R5 (Body)",
+      "description": "Approx. 45MP full-frame CMOS sensor. Up to 8-stop In-Body Image Stabilizer X Optical Image StabilizerUp to 20 FPS + Animal Detection AF",
+      "price": "$1800",
+      "img": "https://asia.canon/media/image/2020/07/04/862a1f43feed4fab85897aee45b6324c_R5_Front_BODY.png"
+    },
+    {
+      "key_id": 3,
+      "name": "EOS R6 (Body) ",
+      "description" : "Approx. 20.1MP full-frame CMOS sensor + 4K video.Up to 8-stop In-Body Image Stabilizer X Optical Image Stabilizer.Low-light performance up to EV -6.5 + ISO 102400",
+      "price": "$1200",
+      "img": "https://asia.canon/media/image/2020/07/04/20563b52bb03410493a7ae03674f3cbf_R6_Front_BODY.png"
+    },
+    {
+      "key_id": 4,
+      "name": "EOS RP ",
+      "description": "26.2MP Full-Frame CMOS Sensor.0.05 secs focusing time.4,779 selectable focus positions",
+      "price": "$2500",
+      "img": "https://asia.canon/media/image/2020/02/13/a25092973b2648cea582671a33436b7d_EOS+RP+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    },
+    {
+      "key_id": 5,
+      "name": "EOS R",
+      "description": "30.3MP Full-Frame CMOS Sensor.0.05 secs focusing time.5,655 selectable focus positions",
+      "price": "$3000",
+      "img": "https://asia.canon/media/image/2020/02/13/7d44b9b2f99e42e5aa52fa6a3a2e7839_EOS+R+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    },
+    {
+      "key_id": 6,
+      "name": "EOS R",
+      "description": "30.3MP Full-Frame CMOS Sensor.0.05 secs focusing time.5,655 selectable focus positions",
+      "price": "$3000",
+      "img": "https://asia.canon/media/image/2020/02/13/7d44b9b2f99e42e5aa52fa6a3a2e7839_EOS+R+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    },
+    {
+      "key_id": 7,
+      "name": "EOS R",
+      "description": "30.3MP Full-Frame CMOS Sensor.0.05 secs focusing time.5,655 selectable focus positions",
+      "price": "$3000",
+      "img": "https://asia.canon/media/image/2020/02/13/7d44b9b2f99e42e5aa52fa6a3a2e7839_EOS+R+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    },
+    {
+      "key_id": 8,
+      "name": "EOS R",
+      "description": "30.3MP Full-Frame CMOS Sensor.0.05 secs focusing time.5,655 selectable focus positions",
+      "price": "$3000",
+      "img": "https://asia.canon/media/image/2020/02/13/7d44b9b2f99e42e5aa52fa6a3a2e7839_EOS+R+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    },
+    {
+      "key_id": 9,
+      "name": "EOS R",
+      "description": "30.3MP Full-Frame CMOS Sensor.0.05 secs focusing time.5,655 selectable focus positions",
+      "price": "$3000",
+      "img": "https://asia.canon/media/image/2020/02/13/7d44b9b2f99e42e5aa52fa6a3a2e7839_EOS+R+w+RF24-105mm+F4-7.1+IS+STM+Front+Slant+Main.png"
+    }
+  ]

@@ -1,16 +1,17 @@
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import './App.css';
-import AuthProvider from './contexts/AuthProvider';
+import AuthProvider from './contexts/AuthProvider/AuthProvider';
+import Dashboard from './Pages/Dashboard/Dashboard';
+import ExploreProducts from './Pages/ExploreProducts/ExploreProducts';
 import Home from './Pages/Home/Home';
-import AddPackage from './Pages/Home/Service/AddPackage/AddPackage';
-import PlaceOrder from './Pages/Home/Service/PlaceOrder/PlaceOrder';
-import Login from './Pages/Login/Login';
-import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-import ManageAllOrders from './Pages/ManageAllOrders/ManageAllOrders';
-import MyOrders from './Pages/MyOrders/MyOrders';
-import NotFound from './Pages/NotFound/NotFound';
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import PlaceOrder from './Pages/Home/Products/Product/PlaceOrder/PlaceOrder';
+import MyOrders from './Pages/Dashboard/MyOrders/MyOrders';
+import NotFound from './Pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -25,21 +26,24 @@ function App() {
             <Route path='/home'>
               <Home></Home>
             </Route>
-            <Route path='/login'>
-              <Login></Login>
+            <Route path='/exploreallproducts'>
+              <ExploreProducts></ExploreProducts>
             </Route>
-            <PrivateRoute path='/myorders'>
-              <MyOrders></MyOrders>
-            </PrivateRoute>
-            <PrivateRoute path='/manageallorders'>
-              <ManageAllOrders></ManageAllOrders>
+            <PrivateRoute path='/dashboard'>
+              <Dashboard></Dashboard>
             </PrivateRoute>
             <PrivateRoute path='/placeOrder/:_id'>
               <PlaceOrder></PlaceOrder>
             </PrivateRoute>
-            <PrivateRoute path='/addNewPackage'>
-              <AddPackage></AddPackage>
+            <PrivateRoute path='/myorders'>
+              <MyOrders></MyOrders>
             </PrivateRoute>
+            <Route path='/login'>
+              <Login></Login>
+            </Route>
+            <Route path='/register'>
+              <Register></Register>
+            </Route>
             <Route path='*'>
               <NotFound></NotFound>
             </Route>
