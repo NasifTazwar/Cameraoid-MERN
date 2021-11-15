@@ -27,7 +27,7 @@ const Dashboard = () => {
 
   return (
     <div className="container-fluid" style={{backgroundColor:"#F6F6F6"}}>
-      <div className="row mx-auto">
+      <div className="row me-auto">
         <nav
           id="sidebarMenu"
           className="col-md-2 col-lg-2 d-sm-block border-bottom"
@@ -35,7 +35,11 @@ const Dashboard = () => {
         >
           <div className="position-sticky pt-3">
             <ul className="nav flex-md-column flex-lg-column align-items-start">
-              <li className="nav-item">
+              
+              {
+                admin ?
+                <>
+                <li className="nav-item">
                 <NavLink
                   to={`${url}`}
                   className="nav-link active"
@@ -44,11 +48,6 @@ const Dashboard = () => {
                   <span data-feather="home"></span>Dashboard
                 </NavLink>
               </li>
-
-              
-              {
-                admin ?
-                <>
                 <li className="nav-item">
                   <NavLink to={`${url}/makeadmin`} className="nav-link">
                     <span data-feather="shopping-cart"></span>Make Admin

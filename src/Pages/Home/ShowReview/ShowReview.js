@@ -6,7 +6,7 @@ const ShowReview = () => {
     
     return (
         <div className="container-fluid review-container">
-            <h2>Reviews</h2>
+            <h1 className="pt-5" style={{fontWeight: 700}}>Customers Reviews</h1>
             <ReviewSlider></ReviewSlider>
         </div>
     );

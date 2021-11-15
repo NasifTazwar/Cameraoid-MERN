@@ -52,17 +52,17 @@ const ManageAllOrder = () => {
       });
   };
     return (
-        <div class="main-content" style={{height: "100vh"}}>
-      <div class="container-fluid my-5 mb-5">
-        <div class="row">
-          <div class="col">
-            <div class="card shadow">
-              <div class="card-header border-0">
-                <h3 class="mb-0">{orders.length} Orders</h3>
+        <div className="main-content" style={{height: "100vh"}}>
+      <div className="container-fluid my-5 mb-5">
+        <div className="row">
+          <div className="col">
+            <div className="card shadow">
+              <div className="card-header border-0">
+                <h3 className="mb-0">{orders.length} Orders</h3>
               </div>
-              <div class="table-responsive">
-                <table class="table align-items-center table-flush">
-                  <thead class="thead-light">
+              <div className="table-responsive">
+                <table className="table align-items-center table-flush">
+                  <thead className="thead-light">
                     <tr>
                       <th scope="col">Index</th>
                       <th scope="col">Billing Name</th>
@@ -83,9 +83,9 @@ const ManageAllOrder = () => {
                         <tr>
                           <td>{index+1}</td>
                           <td>
-                            <div class="media align-items-center">
-                              <div class="media-body">
-                                <span class="mb-0 text-sm">
+                            <div className="media align-items-center">
+                              <div className="media-body">
+                                <span className="mb-0 text-sm">
                                   <strong>{order?.name}</strong>
                                 </span>
                               </div>

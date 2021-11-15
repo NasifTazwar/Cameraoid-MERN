@@ -88,7 +88,6 @@ const ReviewSlider = () => {
   };
   return (
     <div className="my-5 container-fluid">
-      <h2> Responsive </h2>
       <div className="container-fluid">
         <Slider {...settings}>
           {

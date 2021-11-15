@@ -5,9 +5,9 @@ import useAuth from '../../../hooks/useAuth';
 const AdminRoute = ({ children , ...rest}) => {
     const {user , admin , isLoading} = useAuth();
     if(isLoading){
-        return <div class="d-flex align-items-center">
+        return <div className="d-flex align-items-center">
                     <strong className="text-info">Loading...</strong>
-                    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+                    <div className="spinner-border ms-auto" role="status" aria-hidden="true"></div>
                 </div>
     }
     return (
