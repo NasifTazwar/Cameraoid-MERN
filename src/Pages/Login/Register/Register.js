@@ -28,7 +28,7 @@ const Register = () => {
     const handleLoginSubmit = e =>{
         if(loginData.password !== loginData.password2){
 
-            alert("Password didn't matched!");
+            alert("Password didn't match!");
             return;
         }
         registerUser(loginData.email , loginData.password ,loginData.name , history);
@@ -42,7 +42,7 @@ const Register = () => {
 
 
     return (
-        <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+        <div className="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto" style={{height: "85vh"}}>
     <div className="card card0 border-0">
         <div className="row d-flex">
             <div className="col-lg-6">

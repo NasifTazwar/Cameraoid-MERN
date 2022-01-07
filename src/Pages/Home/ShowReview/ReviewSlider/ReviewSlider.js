@@ -75,6 +75,7 @@ const ReviewSlider = () => {
           slidesToScroll: 1,
           autoplay: true,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
@@ -82,6 +83,7 @@ const ReviewSlider = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],

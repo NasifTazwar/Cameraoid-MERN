@@ -45,7 +45,7 @@ const PlaceOrder = () => {
                                 <h1 className="card-title">{el.name}</h1>
                                 <h3 className="card-text">{el.description}</h3>
                                 <br />  
-                                <h2 className="card-text"><small>{el.price}</small></h2>
+                                <h2 className="card-text text-danger"><small>${el.price}</small></h2>
                             </div>
                             </div>
                         </div>
